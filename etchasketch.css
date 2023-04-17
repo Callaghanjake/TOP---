@@ -9,11 +9,15 @@
     height: 500px;
     display: grid;
     margin: auto;
-    /* grid-template-columns: repeat(100, 1fr); */
+    /* grid-template-columns: repeat(100, 1fr); */ 
 }
 
 .box {
     border: solid 1px #F2F2F2;
+}
+
+.emptyBox {
+    background-color: white;
 }
 
 .active {
@@ -21,12 +25,13 @@
     border: solid 1px #F2F2F2;
 }
 
-.refresh {
+button {
     background-color: silver;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
     display: grid;
     margin: auto;
+    min-width: 12%;
     padding: 20px;
     border: solid 1px white;
     border-radius: 8px;
